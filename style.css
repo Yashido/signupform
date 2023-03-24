@@ -9,7 +9,16 @@ body {
     display: flex;
     min-width: 35%;
     height: auto;
-    background-image: url(resources/andrew-romanov-R22dZaYlU04-unsplash.jpg) no-repeat;
+    background-image: url(resources/coffee.jpg);
     background-position: center;
     background-size: cover;
+}
+.right-panel {
+    display: flex;
+    padding: 5%;
+}
+
+.right-panel > .CTA-text {
+    padding-top: 5%;
+    font-size: 2rem;
 }
