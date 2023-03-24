@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    display: flex;
+    min-width: 35%;
+    height: auto;
+    background-image: url(resources/andrew-romanov-R22dZaYlU04-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
