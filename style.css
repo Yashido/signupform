@@ -7,12 +7,27 @@ body {
 
 .left-panel {
     display: flex;
+    flex-direction: column;
     min-width: 35%;
     height: auto;
     background-image: url(resources/coffee.jpg);
     background-position: center;
     background-size: cover;
 }
+
+.left-panel > .logo-banner {
+    display: flex;
+    margin-top: 25%;
+    width: 100%;
+    min-height: 20vh;
+    opacity: .5;
+    background-color: black;
+}
+
+.left-panel > .logo-banner > .logo-text > .logo{
+    width: 100%;
+}
+
 .right-panel {
     display: flex;
     padding: 5%;
