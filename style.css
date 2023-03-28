@@ -16,28 +16,38 @@ body {
     background-size: cover;
 }
 
-.left-panel > .logo-banner {
+.left-panel > .logo-container {
     display: flex;
     margin-top: 17vh;
     width: 100%;
-
-.left-panel > .logo-banner > .logo-text > .logo{
-    width: 50%;
-    opacity: 100%;
+    height: 20vh;
 }
-
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+ .logo {
+    width: 10vw;
+ }
 .right-panel {
     display: flex;
     flex-direction: column;
 }
 
 .right-panel > .CTA-text {
-    padding-top: 15%;
-    padding: 5%;
+    padding-top: 17%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     font-size: 2rem;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(194, 184, 184);
 }
 
 .speaker-form {
     width: 600px;
   }
+
+  
