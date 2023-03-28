@@ -4,6 +4,7 @@ body {
     display: flex;
     height: 100vh;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 .left-panel {
@@ -21,6 +22,7 @@ body {
     margin-top: 17vh;
     width: 100%;
     height: 20vh;
+    align-items: center;
 }
 .logo-text {
     display: flex;
@@ -42,8 +44,8 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    font-size: 2rem;
-    background-color: rgb(194, 184, 184);
+    font-size: calc(1rem + 1vw);
+    background-color: rgb(243, 178, 124);
 }
 
 .form {
@@ -51,12 +53,11 @@ body {
 }
 
 .ldt {
-    font-size: 2rem;
+    font-size: calc(1rem + 1vw);
 }
 
 .speaker-form {
     padding: 5%;
     width: 600px;
+    columns:2;
   }
-
-  
