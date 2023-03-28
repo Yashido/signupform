@@ -46,7 +46,16 @@ body {
     background-color: rgb(194, 184, 184);
 }
 
+.form {
+    padding: 5%;
+}
+
+.ldt {
+    font-size: 2rem;
+}
+
 .speaker-form {
+    padding: 5%;
     width: 600px;
   }
 
