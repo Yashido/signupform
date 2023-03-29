@@ -60,12 +60,22 @@ body {
     display: flex;
     flex-direction: row;
     padding: 5%;
-    gap: .5vh;
-    width: 600px;
-    columns:2;
+    gap: calc(1rem + 1.2vw);
+    justify-content: center;
   }
-
+.form-left-section {
+    flex: 1;
+}
+.form-right-section {
+    flex: 1;
+}
   .form-input {
     display: flex;
     flex-direction: column;
+    font-size: calc(1rem + 0.8vw);
+    min-width: auto;
+  }
+  
+  .lower {
+    padding: 5%;
   }
