@@ -57,7 +57,10 @@ body {
 }
 
 .speaker-form {
+    display: flex;
+    flex-direction: column;
     padding: 5%;
+    gap: .5vh;
     width: 600px;
     columns:2;
   }
