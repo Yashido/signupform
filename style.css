@@ -58,9 +58,14 @@ body {
 
 .speaker-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 5%;
     gap: .5vh;
     width: 600px;
     columns:2;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
   }
