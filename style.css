@@ -56,6 +56,7 @@ body {
 }
 
 .ldt {
+    padding-left: 5%;
     font-size: calc(1rem + 1vw);
 }
 
@@ -74,17 +75,25 @@ body {
 .form-right-section {
     flex: 1;
 }
-  .form-input {
+
+.form-input {
     display: flex;
     flex-direction: column;
     font-size: calc(1rem + 0.8vw);
     min-width: auto;
   }
 
- .lower {
-    padding-left: 2vw;
+.lower {
+    padding-left: 5%;
  } 
 
 .lowerlower {
     display: flex;
+    align-items: center;
+    gap: .25vw;
   }
+
+.button-click {
+    width:  20vw;
+    height: 8vh;
+}
