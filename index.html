@@ -32,21 +32,21 @@
                 <div class="form-left-section">
                     <div class="form-input">
                         <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname">
+                        <input type="text" name="fname" id="fname" placeholder="John" required>
                     </div>
                     <div class="form-input">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="form-input">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})">
                     </div>
                 </div>
                 <div class="form-right-section">
                     <div class="form-input">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname">
+                        <input type="text" name="lname" id="lname" placeholder="Doe" required>
                     </div>
                     <div class="form-input">
                         <label for="phone-number">Phone Number</label>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="form-input">
                         <label for="cpassword">Confirm Password</label>
-                        <input type="password" name="cpassword" id="cpassword">
+                        <input type="password" name="cpassword" id="cpassword" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})">
                     </div>
                 </div>  
             </form>
