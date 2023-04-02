@@ -4,7 +4,7 @@ body {
     display: flex;
     height: 100vh;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .left-panel {
@@ -64,12 +64,13 @@ body {
     display: flex;
     flex-direction: row;
     padding: 5%;
-    gap: calc(1rem + 1.2vw);
+    gap: calc(1rem + 1.5vw);
     justify-content: center;
   }
 
 .form-left-section {
     flex: 1;
+    
 }
 
 .form-right-section {
@@ -79,7 +80,8 @@ body {
 .form-input {
     display: flex;
     flex-direction: column;
-    font-size: calc(1rem + 0.8vw);
+    gap: .5vw;
+    font-size: calc(.5rem + 0.8vw);
     min-width: auto;
   }
 
