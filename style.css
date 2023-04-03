@@ -117,11 +117,17 @@ body {
 }
 
 .speaker-form input[type='text'],
-.speaker-form input[type='email'] {
+.speaker-form input[type='email'],
+.speaker-form input[type='password'],
+.speaker-form input[type='number'] {
     background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
-  border-radius: 3px;
-  width: 100%;
-  padding: 7px;
-  font-size: calc(.5rem + 0.8vw);
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: calc(.5rem + 0.8vw);
+}
+
+@media only screen and (max-width 700px) {
+    
 }
