@@ -118,5 +118,10 @@ body {
 
 .speaker-form input[type='text'],
 .speaker-form input[type='email'] {
-    
+    background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: calc(.5rem + 0.8vw);
 }
