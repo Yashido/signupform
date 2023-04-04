@@ -53,6 +53,8 @@ body {
     flex-direction: column;
 
     background-color: blanchedalmond;
+
+    color: black;
 }
 
 .right-panel > .CTA-text {
@@ -62,7 +64,7 @@ body {
     padding-bottom: 5%;
     
     font-size: calc(.5rem + 1.5vw);
-    background-color: rgb(252, 212, 180);
+    background-color: rgb(194, 155, 122);
     color: rgb(0, 0, 0);
 }
 
@@ -128,6 +130,6 @@ body {
     font-size: calc(.5rem + 0.8vw);
 }
 
-@media only screen and (max-width 700px) {
+@media only screen and (max-width: 700px) {
     
 }
